@@ -30,7 +30,7 @@ The WINT8 suite ships everything it needs internally:
 FilePurposewint8_quant.pyInt8TensorwiseOps + DynamicLoRAHookwint8_blockwise.pyInt8BlockwiseOps with 2D tile scalingwint8_fused_kernel.pyTriton fused INT8 kernels with torch._int_mm fallbackwint8_quarot.pyHadamard rotation (scipy optional, pure-torch fallback)
 Triton kernels are used automatically when available and fall back to torch._int_mm gracefully. QuaRot falls back to pure PyTorch if scipy is not installed.
 
-Installation
+```
 ComfyUI/custom_nodes/
 ├── winnougan_nodes/
 │   ├── __init__.py
@@ -52,7 +52,7 @@ ComfyUI/custom_nodes/
     └── js/
         ├── wint8_diffuser_loader.js
         └── wint8_power_lora_loader.js
-Restart ComfyUI after installation. Nodes appear under the Winnougan and WINT8 categories in the node menu.
+```
 
 Requirements
 
