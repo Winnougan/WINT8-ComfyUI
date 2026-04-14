@@ -55,10 +55,9 @@ ComfyUI/custom_nodes/
 ```
 
 Requirements
-
-ComfyUI (latest)
-PyTorch 2.1+
-triton (optional, for fused INT8 kernels — Linux native, Windows via triton-windows)
-scipy (optional, for optimized Hadamard matrices)
-sageattn (optional, for Sage Attention in WINT8 Diffuser Loader)
-ComfyUI-GGUF (optional, for GGUF CLIP loading in Winnougan CLIP Loader)
+- ComfyUI (latest)
+- PyTorch 2.1+
+- `triton` (optional, for fused INT8 kernels — Linux native, Windows via `triton-windows`)
+- `scipy` (optional, for optimized Hadamard matrices)
+- `sageattn` (optional, for Sage Attention in WINT8 Diffuser Loader)
+- ComfyUI-GGUF (optional, for GGUF CLIP loading in Winnougan CLIP Loader)
