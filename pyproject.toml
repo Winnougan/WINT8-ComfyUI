@@ -1,7 +1,7 @@
 [project]
 name = "winnougan-nodes"
 description = "Winnougan and WINT8 custom nodes for ComfyUI — prompt encoder, CLIP loader, power LoRA loader, INT8 diffuser loader, resolution pickers, and more."
-version = "1.0.0"
+version = "1.0.1"
 license = { file = "LICENSE" }
 dependencies = []
 
