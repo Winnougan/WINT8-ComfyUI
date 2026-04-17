@@ -1,4 +1,4 @@
-<img width="1200" height="1200" alt="Logo_Winnougan" src="https://github.com/user-attachments/assets/006583fa-3d94-4a1f-a31c-1109fbc46e8b" />
+<img width="687" height="687" alt="download (15)" src="https://github.com/user-attachments/assets/9bc42e70-14a7-4018-a27b-cb2c3fd11cdc" />
 
 WINT8 Nodes
 A self-contained suite for working with INT8 quantized diffusion models. No dependency on int88 or any other external custom node — all quantization logic is built in.
